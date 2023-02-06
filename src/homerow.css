@@ -1,0 +1,39 @@
+.home_row1 {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: center;
+    border-bottom: 6px solid grey;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+h1,
+h3 {
+    color: white;
+    text-align: center;
+}
+
+.home_row1>span {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.tv-show {
+    height: 450px;
+    /* background-image: url("https://media2.giphy.com/media/FUTyhLwpYEKtuS5vAK/200w.webp?cid=ecf05e47qilor9c2anbut03yjxx2qoj3y99wksf4mbnqe938&rid=200w.webp&ct=g"); */
+    width: 50%;
+}
+
+@media screen and(min-width:500px) {
+    .home_row1 {
+        flex-direction: column;
+    }
+}
