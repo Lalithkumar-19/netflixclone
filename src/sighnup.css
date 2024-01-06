@@ -36,3 +36,8 @@
     justify-content: center;
     align-self: center;
 }
+@media(width<=600px){
+    .signupscreen>form>input{
+        padding:5px;
+    }
+}
