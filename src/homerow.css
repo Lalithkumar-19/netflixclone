@@ -37,8 +37,14 @@ h3 {
         flex-direction: column;
     }
     h1 {
-    font-size: 40px;
+    font-size: 30px;
+    padding-left:4px;
     font-weight: bold;
+}
+    .tv-show {
+    height: 450px;
+    /* background-image: url("https://media2.giphy.com/media/FUTyhLwpYEKtuS5vAK/200w.webp?cid=ecf05e47qilor9c2anbut03yjxx2qoj3y99wksf4mbnqe938&rid=200w.webp&ct=g"); */
+    width: 40%;
 }
 
     
