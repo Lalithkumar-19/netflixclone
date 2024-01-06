@@ -32,7 +32,7 @@ h3 {
     width: 50%;
 }
 
-@media screen and(width<=600px) {
+@media (width<=600px) {
     .home_row1 {
         flex-direction: column;
     }
