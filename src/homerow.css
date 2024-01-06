@@ -32,7 +32,7 @@ h3 {
     width: 50%;
 }
 
-@media screen and(min-width:500px) {
+@media screen and(width<=600px) {
     .home_row1 {
         flex-direction: column;
     }
@@ -41,6 +41,9 @@ h3 {
     padding-left:4px;
     font-weight: bold;
 }
+    .home_row1 {
+        flex-direction:column;
+    }
     .tv-show {
     height: 450px;
     /* background-image: url("https://media2.giphy.com/media/FUTyhLwpYEKtuS5vAK/200w.webp?cid=ecf05e47qilor9c2anbut03yjxx2qoj3y99wksf4mbnqe938&rid=200w.webp&ct=g"); */
